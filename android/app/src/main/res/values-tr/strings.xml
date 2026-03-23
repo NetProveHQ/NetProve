@@ -31,9 +31,21 @@
     <!-- Gaming -->
     <string name="no_game">Oyun algılanmadı</string>
     <string name="running">Çalışıyor</string>
+    <string name="waiting">Bekleniyor…</string>
     <string name="gaming_mode_on">Oyun Modu AÇIK</string>
     <string name="gaming_mode_off">Oyun Modu</string>
     <string name="game_booster">Oyun Güçlendirici</string>
+    <string name="lag_estimate">Gecikme Tahmini</string>
+    <string name="confidence_format">Güven: %1$.0f%% | ~%2$ds</string>
+    <string name="game_features">Oyun Özellikleri</string>
+    <string name="auto_game_detection">Otomatik Oyun Algılama</string>
+    <string name="auto_game_detection_desc">156+ popüler oyunu otomatik algılar</string>
+    <string name="lag_prediction_feature">Gecikme Tahmini</string>
+    <string name="lag_prediction_desc">CPU, RAM, ping trendlerini analiz ederek lag tahmin eder</string>
+    <string name="dnd_feature">Rahatsız Etmeyin</string>
+    <string name="dnd_desc">Oyun sırasında bildirimleri sessize alır</string>
+    <string name="bg_cleanup_feature">Arka Plan Temizleme</string>
+    <string name="bg_cleanup_desc">Gereksiz uygulamaları kapatarak RAM boşaltır</string>
 
     <!-- Speed Test -->
     <string name="run_speed_test">Hız Testi Başlat</string>
@@ -91,6 +103,12 @@
     <!-- Tools -->
     <string name="tools">Araçlar</string>
     <string name="devices_desc">Ağınızdaki cihazları tarayın ve keşfedin</string>
+
+    <!-- Network Screen -->
+    <string name="ping_history">Ping Geçmişi</string>
+    <string name="connection_status">Bağlantı Durumu</string>
+    <string name="connected">Bağlı</string>
+    <string name="disconnected">Bağlantı Kesildi</string>
 
     <!-- General -->
     <string name="mbps">Mbps</string>

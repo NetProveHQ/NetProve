@@ -31,9 +31,21 @@
     <!-- Gaming -->
     <string name="no_game">Kein Spiel erkannt</string>
     <string name="running">Läuft</string>
+    <string name="waiting">Warten…</string>
     <string name="gaming_mode_on">Spielmodus AN</string>
     <string name="gaming_mode_off">Spielmodus</string>
     <string name="game_booster">Spiel-Booster</string>
+    <string name="lag_estimate">Latenzvorsage</string>
+    <string name="confidence_format">Vertrauen: %1$.0f%% | ~%2$ds</string>
+    <string name="game_features">Spielfunktionen</string>
+    <string name="auto_game_detection">Automatische Spielerkennung</string>
+    <string name="auto_game_detection_desc">Erkennt automatisch 156+ beliebte Spiele</string>
+    <string name="lag_prediction_feature">Latenzvorhersage</string>
+    <string name="lag_prediction_desc">Sagt Lag voraus durch Analyse von CPU, RAM und Ping-Trends</string>
+    <string name="dnd_feature">Nicht stören</string>
+    <string name="dnd_desc">Schaltet Benachrichtigungen während des Spielens stumm</string>
+    <string name="bg_cleanup_feature">Hintergrundbereinigung</string>
+    <string name="bg_cleanup_desc">Gibt RAM frei durch Schließen unnötiger Apps</string>
 
     <!-- Speed Test -->
     <string name="run_speed_test">Geschwindigkeitstest starten</string>
@@ -91,6 +103,12 @@
     <!-- Tools -->
     <string name="tools">Werkzeuge</string>
     <string name="devices_desc">Geräte in Ihrem Netzwerk scannen und entdecken</string>
+
+    <!-- Network Screen -->
+    <string name="ping_history">Ping-Verlauf</string>
+    <string name="connection_status">Verbindungsstatus</string>
+    <string name="connected">Verbunden</string>
+    <string name="disconnected">Getrennt</string>
 
     <!-- General -->
     <string name="mbps">Mbps</string>

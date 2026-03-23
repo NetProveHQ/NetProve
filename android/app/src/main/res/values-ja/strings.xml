@@ -31,9 +31,21 @@
     <!-- Gaming -->
     <string name="no_game">ゲームが検出されません</string>
     <string name="running">実行中</string>
+    <string name="waiting">待機中…</string>
     <string name="gaming_mode_on">ゲームモード オン</string>
     <string name="gaming_mode_off">ゲームモード</string>
     <string name="game_booster">ゲームブースター</string>
+    <string name="lag_estimate">遅延予測</string>
+    <string name="confidence_format">信頼度: %1$.0f%% | ~%2$d秒</string>
+    <string name="game_features">ゲーム機能</string>
+    <string name="auto_game_detection">自動ゲーム検出</string>
+    <string name="auto_game_detection_desc">156+の人気ゲームを自動検出</string>
+    <string name="lag_prediction_feature">遅延予測</string>
+    <string name="lag_prediction_desc">CPU、RAM、Pingのトレンドを分析してラグを予測</string>
+    <string name="dnd_feature">おやすみモード</string>
+    <string name="dnd_desc">ゲーム中の通知を無音にします</string>
+    <string name="bg_cleanup_feature">バックグラウンド整理</string>
+    <string name="bg_cleanup_desc">不要なアプリを終了してRAMを解放</string>
 
     <!-- Speed Test -->
     <string name="run_speed_test">速度テストを実行</string>
@@ -91,6 +103,12 @@
     <!-- Tools -->
     <string name="tools">ツール</string>
     <string name="devices_desc">ネットワーク上のデバイスをスキャンして検出</string>
+
+    <!-- Network Screen -->
+    <string name="ping_history">Ping履歴</string>
+    <string name="connection_status">接続状態</string>
+    <string name="connected">接続済み</string>
+    <string name="disconnected">切断</string>
 
     <!-- General -->
     <string name="mbps">Mbps</string>

@@ -124,7 +124,7 @@ fun NetworkScreen(
         ) {
             Column(modifier = Modifier.padding(16.dp)) {
                 Text(
-                    "Ping Geçmişi",
+                    stringResource(R.string.ping_history),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.SemiBold
                 )

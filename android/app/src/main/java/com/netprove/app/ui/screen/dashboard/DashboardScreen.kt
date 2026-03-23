@@ -266,6 +266,7 @@ fun DashboardScreen(
 
         Spacer(modifier = Modifier.height(80.dp)) // Bottom nav padding
     }
+
 }
 
 @Composable

@@ -53,6 +53,12 @@ class DashboardViewModel @Inject constructor(
         }
     }
 
+    fun refresh() {
+        // Trigger a fresh measurement cycle
+        coreEngine.stop()
+        coreEngine.start()
+    }
+
     override fun onCleared() {
         super.onCleared()
         coreEngine.stop()

@@ -31,9 +31,21 @@
     <!-- Gaming -->
     <string name="no_game">未检测到游戏</string>
     <string name="running">运行中</string>
+    <string name="waiting">等待中…</string>
     <string name="gaming_mode_on">游戏模式 已开启</string>
     <string name="gaming_mode_off">游戏模式</string>
     <string name="game_booster">游戏加速器</string>
+    <string name="lag_estimate">延迟预测</string>
+    <string name="confidence_format">置信度: %1$.0f%% | ~%2$d秒</string>
+    <string name="game_features">游戏功能</string>
+    <string name="auto_game_detection">自动游戏检测</string>
+    <string name="auto_game_detection_desc">自动检测156+热门游戏</string>
+    <string name="lag_prediction_feature">延迟预测</string>
+    <string name="lag_prediction_desc">通过分析CPU、RAM和Ping趋势预测延迟</string>
+    <string name="dnd_feature">勿扰模式</string>
+    <string name="dnd_desc">游戏期间静音通知</string>
+    <string name="bg_cleanup_feature">后台清理</string>
+    <string name="bg_cleanup_desc">关闭不必要的应用释放内存</string>
 
     <!-- Speed Test -->
     <string name="run_speed_test">开始速度测试</string>
@@ -91,6 +103,12 @@
     <!-- Tools -->
     <string name="tools">工具</string>
     <string name="devices_desc">扫描并发现网络上的设备</string>
+
+    <!-- Network Screen -->
+    <string name="ping_history">Ping历史</string>
+    <string name="connection_status">连接状态</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">已断开</string>
 
     <!-- General -->
     <string name="mbps">Mbps</string>

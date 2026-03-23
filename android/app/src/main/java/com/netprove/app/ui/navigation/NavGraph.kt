@@ -1,5 +1,7 @@
 package com.netprove.app.ui.navigation
 
+import androidx.compose.animation.*
+import androidx.compose.animation.core.tween
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
@@ -14,12 +16,18 @@ import com.netprove.app.ui.screen.reports.ReportsScreen
 import com.netprove.app.ui.screen.settings.SettingsScreen
 import com.netprove.app.ui.screen.speedtest.SpeedTestScreen
 
+private const val ANIM_DURATION = 300
+
 @Composable
 fun NavGraph(navController: NavHostController, modifier: Modifier = Modifier) {
     NavHost(
         navController = navController,
         startDestination = Screen.Dashboard.route,
-        modifier = modifier
+        modifier = modifier,
+        enterTransition = { fadeIn(tween(ANIM_DURATION)) + slideInHorizontally(tween(ANIM_DURATION)) { it / 4 } },
+        exitTransition = { fadeOut(tween(ANIM_DURATION)) },
+        popEnterTransition = { fadeIn(tween(ANIM_DURATION)) + slideInHorizontally(tween(ANIM_DURATION)) { -it / 4 } },
+        popExitTransition = { fadeOut(tween(ANIM_DURATION)) }
     ) {
         composable(Screen.Dashboard.route) {
             DashboardScreen(

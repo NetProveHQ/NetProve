@@ -31,9 +31,21 @@
     <!-- Gaming -->
     <string name="no_game">Игра не обнаружена</string>
     <string name="running">Запущено</string>
+    <string name="waiting">Ожидание…</string>
     <string name="gaming_mode_on">Игровой режим ВКЛ</string>
     <string name="gaming_mode_off">Игровой режим</string>
     <string name="game_booster">Ускоритель игр</string>
+    <string name="lag_estimate">Прогноз задержки</string>
+    <string name="confidence_format">Уверенность: %1$.0f%% | ~%2$dс</string>
+    <string name="game_features">Игровые функции</string>
+    <string name="auto_game_detection">Автоопределение игр</string>
+    <string name="auto_game_detection_desc">Автоматически определяет 156+ популярных игр</string>
+    <string name="lag_prediction_feature">Прогноз задержки</string>
+    <string name="lag_prediction_desc">Предсказывает лаги, анализируя тренды CPU, RAM и пинга</string>
+    <string name="dnd_feature">Не беспокоить</string>
+    <string name="dnd_desc">Отключает уведомления во время игры</string>
+    <string name="bg_cleanup_feature">Очистка фона</string>
+    <string name="bg_cleanup_desc">Освобождает RAM, закрывая ненужные приложения</string>
 
     <!-- Speed Test -->
     <string name="run_speed_test">Запустить тест скорости</string>
@@ -91,6 +103,12 @@
     <!-- Tools -->
     <string name="tools">Инструменты</string>
     <string name="devices_desc">Сканируйте и обнаруживайте устройства в сети</string>
+
+    <!-- Network Screen -->
+    <string name="ping_history">История пинга</string>
+    <string name="connection_status">Статус подключения</string>
+    <string name="connected">Подключено</string>
+    <string name="disconnected">Отключено</string>
 
     <!-- General -->
     <string name="mbps">Мбит/с</string>

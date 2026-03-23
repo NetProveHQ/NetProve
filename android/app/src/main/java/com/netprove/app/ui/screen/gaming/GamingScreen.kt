@@ -1,5 +1,6 @@
 package com.netprove.app.ui.screen.gaming
 
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -9,10 +10,13 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.netprove.app.R
 import com.netprove.app.ui.theme.*
 
 @Composable
@@ -22,6 +26,17 @@ fun GamingScreen(
     val activeGame by viewModel.activeGame.collectAsStateWithLifecycle()
     val lagWarning by viewModel.lagWarning.collectAsStateWithLifecycle()
     val prediction by viewModel.prediction.collectAsStateWithLifecycle()
+
+    // Pulsing animation when game is active
+    val pulseAlpha by rememberInfiniteTransition(label = "pulse").animateFloat(
+        initialValue = 1f,
+        targetValue = 0.5f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(1000),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "pulseAlpha"
+    )
 
     Column(
         modifier = Modifier
@@ -46,17 +61,19 @@ fun GamingScreen(
                     Icons.Default.SportsEsports,
                     contentDescription = null,
                     tint = if (activeGame != null) Success else MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.size(40.dp)
+                    modifier = Modifier
+                        .size(40.dp)
+                        .then(if (activeGame != null) Modifier.alpha(pulseAlpha) else Modifier)
                 )
                 Spacer(modifier = Modifier.width(16.dp))
                 Column {
                     Text(
-                        activeGame ?: "Oyun algılanmadı",
+                        activeGame ?: stringResource(R.string.no_game),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        if (activeGame != null) "Çalışıyor" else "Bekleniyor...",
+                        if (activeGame != null) stringResource(R.string.running) else stringResource(R.string.waiting),
                         style = MaterialTheme.typography.bodyMedium,
                         color = if (activeGame != null) Success else MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -83,11 +100,11 @@ fun GamingScreen(
                     )
                     Spacer(modifier = Modifier.width(12.dp))
                     Column(modifier = Modifier.weight(1f)) {
-                        Text("Gecikme Tahmini", fontWeight = FontWeight.SemiBold, color = Warning)
+                        Text(stringResource(R.string.lag_estimate), fontWeight = FontWeight.SemiBold, color = Warning)
                         Text(warning, style = MaterialTheme.typography.bodySmall)
                         prediction?.let { p ->
                             Text(
-                                "Güven: %.0f%% | ~${p.estimatedSecondsUntilLag}s".format(p.confidence),
+                                stringResource(R.string.confidence_format, p.confidence, p.estimatedSecondsUntilLag),
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
@@ -98,12 +115,12 @@ fun GamingScreen(
         }
 
         // Features info
-        Text("Oyun Özellikleri", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Text(stringResource(R.string.game_features), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
 
-        FeatureCard(Icons.Default.Visibility, "Otomatik Oyun Algılama", "50+ popüler oyunu otomatik algılar", true)
-        FeatureCard(Icons.Default.TrendingUp, "Gecikme Tahmini", "CPU, RAM, ping trendlerini analiz ederek lag tahmin eder", true)
-        FeatureCard(Icons.Default.DoNotDisturb, "Rahatsız Etmeyin", "Oyun sırasında bildirimleri sessize alır", false)
-        FeatureCard(Icons.Default.CleaningServices, "Arka Plan Temizleme", "Gereksiz uygulamaları kapatarak RAM boşaltır", false)
+        FeatureCard(Icons.Default.Visibility, stringResource(R.string.auto_game_detection), stringResource(R.string.auto_game_detection_desc), true)
+        FeatureCard(Icons.Default.TrendingUp, stringResource(R.string.lag_prediction_feature), stringResource(R.string.lag_prediction_desc), true)
+        FeatureCard(Icons.Default.DoNotDisturb, stringResource(R.string.dnd_feature), stringResource(R.string.dnd_desc), false)
+        FeatureCard(Icons.Default.CleaningServices, stringResource(R.string.bg_cleanup_feature), stringResource(R.string.bg_cleanup_desc), false)
 
         Spacer(modifier = Modifier.height(80.dp))
     }
