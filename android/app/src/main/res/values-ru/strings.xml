@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetProve</string>
+
+    <!-- Navigation -->
+    <string name="dashboard">Панель</string>
+    <string name="network">Сеть</string>
+    <string name="gaming">Игры</string>
+    <string name="speed_test">Тест скорости</string>
+    <string name="settings">Настройки</string>
+    <string name="reports">Отчёты</string>
+    <string name="dns">DNS</string>
+    <string name="wifi_analyzer">Wi-Fi</string>
+    <string name="lag_analysis">Анализ задержки</string>
+
+    <!-- Dashboard -->
+    <string name="network_quality">Качество сети</string>
+    <string name="system">Система</string>
+    <string name="packet_loss">Потеря пакетов</string>
+    <string name="usage">Использование</string>
+    <string name="activity">Активность</string>
+    <string name="ping">Ping</string>
+
+    <!-- Quality levels -->
+    <string name="excellent">Отлично</string>
+    <string name="good">Хорошо</string>
+    <string name="fair">Удовлетворительно</string>
+    <string name="poor">Плохо</string>
+    <string name="unknown">Неизвестно</string>
+
+    <!-- Gaming -->
+    <string name="no_game">Игра не обнаружена</string>
+    <string name="running">Запущено</string>
+    <string name="gaming_mode_on">Игровой режим ВКЛ</string>
+    <string name="gaming_mode_off">Игровой режим</string>
+    <string name="game_booster">Ускоритель игр</string>
+
+    <!-- Speed Test -->
+    <string name="run_speed_test">Запустить тест скорости</string>
+    <string name="download">Загрузка</string>
+    <string name="upload">Отдача</string>
+    <string name="testing">Тестирование…</string>
+
+    <!-- DNS -->
+    <string name="run_dns_benchmark">Запустить тест DNS</string>
+    <string name="apply_dns">Применить</string>
+    <string name="restore_dns">Восстановить DNS</string>
+
+    <!-- Lag -->
+    <string name="run_lag_analysis">Запустить анализ</string>
+    <string name="lag_prediction">Прогноз задержки</string>
+    <string name="no_issues">Проблем не обнаружено</string>
+
+    <!-- Devices -->
+    <string name="devices">Устройства</string>
+    <string name="scan_network">Сканировать сеть</string>
+    <string name="scanning">Сканирование…</string>
+    <string name="devices_found">Найдено устройств: %d</string>
+    <string name="no_devices">Устройства не найдены</string>
+    <string name="scan_prompt">Нажмите Сканировать сеть для обнаружения устройств</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="language">Язык</string>
+    <string name="auto_mode">Автоматический режим</string>
+    <string name="about">О приложении</string>
+    <string name="version">Версия</string>
+    <string name="appearance">Оформление</string>
+    <string name="optimization">Оптимизация</string>
+    <string name="notifications">Уведомления</string>
+    <string name="notification_subtitle">Уведомлять о предупреждениях задержки</string>
+    <string name="auto_mode_subtitle">Автоматически обнаруживать и устранять проблемы сети</string>
+    <string name="dark_theme_subtitle">Использовать тёмную тему</string>
+
+    <!-- DNS Benchmark -->
+    <string name="dns_benchmark_desc">Тестируйте DNS-серверы, чтобы найти самый быстрый</string>
+    <string name="dns_empty_state">Нажмите кнопку для тестирования DNS-серверов</string>
+    <string name="dns_testing">Тестирование DNS-серверов…</string>
+
+    <!-- Reports -->
+    <string name="reports_desc">Анализируйте производительность сети за 30 секунд</string>
+    <string name="reports_empty_state">Создайте отчёт, чтобы увидеть оценку сети</string>
+    <string name="generate_report">Создать отчёт</string>
+    <string name="collecting_data">Сбор данных…</string>
+    <string name="samples_collected">Собрано образцов: %d</string>
+    <string name="stop_early">Остановить досрочно</string>
+    <string name="metrics_breakdown">Разбор метрик</string>
+    <string name="lag_spikes">Скачки задержки</string>
+    <string name="suggestions">Рекомендации</string>
+
+    <!-- Tools -->
+    <string name="tools">Инструменты</string>
+    <string name="devices_desc">Сканируйте и обнаруживайте устройства в сети</string>
+
+    <!-- General -->
+    <string name="mbps">Мбит/с</string>
+    <string name="ms">мс</string>
+    <string name="enabled">Включено</string>
+    <string name="disabled">Отключено</string>
+    <string name="app_description">Инструмент оптимизации игровой и сетевой производительности. Снижение пинга, минимизация потери пакетов.</string>
+    <string name="app_features_summary">156+ распознаваемых игр • 8 языков • DNS-бенчмарк • Отчёты о производительности</string>
+</resources>

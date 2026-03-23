@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetProve</string>
+
+    <!-- Navigation -->
+    <string name="dashboard">仪表盘</string>
+    <string name="network">网络</string>
+    <string name="gaming">游戏</string>
+    <string name="speed_test">速度测试</string>
+    <string name="settings">设置</string>
+    <string name="reports">报告</string>
+    <string name="dns">DNS</string>
+    <string name="wifi_analyzer">Wi-Fi</string>
+    <string name="lag_analysis">延迟分析</string>
+
+    <!-- Dashboard -->
+    <string name="network_quality">网络质量</string>
+    <string name="system">系统</string>
+    <string name="packet_loss">丢包率</string>
+    <string name="usage">使用量</string>
+    <string name="activity">活动</string>
+    <string name="ping">Ping</string>
+
+    <!-- Quality levels -->
+    <string name="excellent">优秀</string>
+    <string name="good">良好</string>
+    <string name="fair">一般</string>
+    <string name="poor">较差</string>
+    <string name="unknown">未知</string>
+
+    <!-- Gaming -->
+    <string name="no_game">未检测到游戏</string>
+    <string name="running">运行中</string>
+    <string name="gaming_mode_on">游戏模式 已开启</string>
+    <string name="gaming_mode_off">游戏模式</string>
+    <string name="game_booster">游戏加速器</string>
+
+    <!-- Speed Test -->
+    <string name="run_speed_test">开始速度测试</string>
+    <string name="download">下载</string>
+    <string name="upload">上传</string>
+    <string name="testing">测试中…</string>
+
+    <!-- DNS -->
+    <string name="run_dns_benchmark">运行 DNS 基准测试</string>
+    <string name="apply_dns">应用</string>
+    <string name="restore_dns">恢复 DNS</string>
+
+    <!-- Lag -->
+    <string name="run_lag_analysis">开始分析</string>
+    <string name="lag_prediction">延迟预测</string>
+    <string name="no_issues">未检测到问题</string>
+
+    <!-- Devices -->
+    <string name="devices">设备</string>
+    <string name="scan_network">扫描网络</string>
+    <string name="scanning">扫描中…</string>
+    <string name="devices_found">找到 %d 台设备</string>
+    <string name="no_devices">未找到设备</string>
+    <string name="scan_prompt">点击扫描网络以发现设备</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">深色主题</string>
+    <string name="language">语言</string>
+    <string name="auto_mode">自动模式</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="appearance">外观</string>
+    <string name="optimization">优化</string>
+    <string name="notifications">通知</string>
+    <string name="notification_subtitle">通知延迟警告</string>
+    <string name="auto_mode_subtitle">自动检测并修复网络问题</string>
+    <string name="dark_theme_subtitle">使用深色主题</string>
+
+    <!-- DNS Benchmark -->
+    <string name="dns_benchmark_desc">测试DNS服务器，找到最快的连接</string>
+    <string name="dns_empty_state">点击按钮测试DNS服务器</string>
+    <string name="dns_testing">正在测试DNS服务器…</string>
+
+    <!-- Reports -->
+    <string name="reports_desc">分析30秒内的网络性能</string>
+    <string name="reports_empty_state">生成报告以查看您的网络性能评分</string>
+    <string name="generate_report">生成报告</string>
+    <string name="collecting_data">正在收集数据…</string>
+    <string name="samples_collected">已收集 %d 个样本</string>
+    <string name="stop_early">提前停止</string>
+    <string name="metrics_breakdown">指标详情</string>
+    <string name="lag_spikes">延迟峰值</string>
+    <string name="suggestions">建议</string>
+
+    <!-- Tools -->
+    <string name="tools">工具</string>
+    <string name="devices_desc">扫描并发现网络上的设备</string>
+
+    <!-- General -->
+    <string name="mbps">Mbps</string>
+    <string name="ms">ms</string>
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+    <string name="app_description">游戏和网络性能优化工具。降低延迟，减少丢包，提升游戏性能。</string>
+    <string name="app_features_summary">156+游戏检测 • 8种语言 • DNS基准测试 • 性能报告</string>
+</resources>

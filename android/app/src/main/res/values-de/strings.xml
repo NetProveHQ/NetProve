@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetProve</string>
+
+    <!-- Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="network">Netzwerk</string>
+    <string name="gaming">Gaming</string>
+    <string name="speed_test">Geschwindigkeitstest</string>
+    <string name="settings">Einstellungen</string>
+    <string name="reports">Berichte</string>
+    <string name="dns">DNS</string>
+    <string name="wifi_analyzer">WLAN</string>
+    <string name="lag_analysis">Latenzanalyse</string>
+
+    <!-- Dashboard -->
+    <string name="network_quality">Netzwerkqualität</string>
+    <string name="system">System</string>
+    <string name="packet_loss">Paketverlust</string>
+    <string name="usage">Nutzung</string>
+    <string name="activity">Aktivität</string>
+    <string name="ping">Ping</string>
+
+    <!-- Quality levels -->
+    <string name="excellent">Ausgezeichnet</string>
+    <string name="good">Gut</string>
+    <string name="fair">Befriedigend</string>
+    <string name="poor">Schlecht</string>
+    <string name="unknown">Unbekannt</string>
+
+    <!-- Gaming -->
+    <string name="no_game">Kein Spiel erkannt</string>
+    <string name="running">Läuft</string>
+    <string name="gaming_mode_on">Spielmodus AN</string>
+    <string name="gaming_mode_off">Spielmodus</string>
+    <string name="game_booster">Spiel-Booster</string>
+
+    <!-- Speed Test -->
+    <string name="run_speed_test">Geschwindigkeitstest starten</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="testing">Teste…</string>
+
+    <!-- DNS -->
+    <string name="run_dns_benchmark">DNS-Benchmark starten</string>
+    <string name="apply_dns">Anwenden</string>
+    <string name="restore_dns">DNS wiederherstellen</string>
+
+    <!-- Lag -->
+    <string name="run_lag_analysis">Analyse starten</string>
+    <string name="lag_prediction">Latenzvorhersage</string>
+    <string name="no_issues">Keine Probleme erkannt</string>
+
+    <!-- Devices -->
+    <string name="devices">Geräte</string>
+    <string name="scan_network">Netzwerk scannen</string>
+    <string name="scanning">Scanne…</string>
+    <string name="devices_found">%d Geräte gefunden</string>
+    <string name="no_devices">Keine Geräte gefunden</string>
+    <string name="scan_prompt">Tippen Sie auf Netzwerk scannen, um Geräte zu entdecken</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">Dunkles Design</string>
+    <string name="language">Sprache</string>
+    <string name="auto_mode">Automatikmodus</string>
+    <string name="about">Über</string>
+    <string name="version">Version</string>
+    <string name="appearance">Erscheinungsbild</string>
+    <string name="optimization">Optimierung</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="notification_subtitle">Über Latenzwarnungen benachrichtigen</string>
+    <string name="auto_mode_subtitle">Netzwerkprobleme automatisch erkennen und beheben</string>
+    <string name="dark_theme_subtitle">Dunkles Design verwenden</string>
+
+    <!-- DNS Benchmark -->
+    <string name="dns_benchmark_desc">Testen Sie DNS-Server, um den schnellsten für Ihre Verbindung zu finden</string>
+    <string name="dns_empty_state">Tippen Sie auf die Schaltfläche, um DNS-Server zu testen</string>
+    <string name="dns_testing">DNS-Server werden getestet…</string>
+
+    <!-- Reports -->
+    <string name="reports_desc">Analysieren Sie Ihre Netzwerkleistung über 30 Sekunden</string>
+    <string name="reports_empty_state">Erstellen Sie einen Bericht, um Ihren Netzwerk-Score zu sehen</string>
+    <string name="generate_report">Bericht erstellen</string>
+    <string name="collecting_data">Daten werden gesammelt…</string>
+    <string name="samples_collected">%d Proben gesammelt</string>
+    <string name="stop_early">Vorzeitig beenden</string>
+    <string name="metrics_breakdown">Metrik-Aufschlüsselung</string>
+    <string name="lag_spikes">Latenz-Spitzen</string>
+    <string name="suggestions">Vorschläge</string>
+
+    <!-- Tools -->
+    <string name="tools">Werkzeuge</string>
+    <string name="devices_desc">Geräte in Ihrem Netzwerk scannen und entdecken</string>
+
+    <!-- General -->
+    <string name="mbps">Mbps</string>
+    <string name="ms">ms</string>
+    <string name="enabled">Aktiviert</string>
+    <string name="disabled">Deaktiviert</string>
+    <string name="app_description">Spiel- und Netzwerkleistungsoptimierung. Ping reduzieren, Paketverlust minimieren, Gaming-Leistung steigern.</string>
+    <string name="app_features_summary">156+ Spielerkennung • 8 Sprachen • DNS-Benchmark • Leistungsberichte</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetProve</string>
+
+    <!-- Navigation -->
+    <string name="dashboard">Panel</string>
+    <string name="network">Ağ</string>
+    <string name="gaming">Oyun</string>
+    <string name="speed_test">Hız Testi</string>
+    <string name="settings">Ayarlar</string>
+    <string name="reports">Raporlar</string>
+    <string name="dns">DNS</string>
+    <string name="wifi_analyzer">Wi-Fi</string>
+    <string name="lag_analysis">Gecikme Analizi</string>
+
+    <!-- Dashboard -->
+    <string name="network_quality">Ağ Kalitesi</string>
+    <string name="system">Sistem</string>
+    <string name="packet_loss">Paket Kaybı</string>
+    <string name="usage">Kullanım</string>
+    <string name="activity">Aktivite</string>
+    <string name="ping">Ping</string>
+
+    <!-- Quality levels -->
+    <string name="excellent">Mükemmel</string>
+    <string name="good">İyi</string>
+    <string name="fair">Orta</string>
+    <string name="poor">Kötü</string>
+    <string name="unknown">Bilinmiyor</string>
+
+    <!-- Gaming -->
+    <string name="no_game">Oyun algılanmadı</string>
+    <string name="running">Çalışıyor</string>
+    <string name="gaming_mode_on">Oyun Modu AÇIK</string>
+    <string name="gaming_mode_off">Oyun Modu</string>
+    <string name="game_booster">Oyun Güçlendirici</string>
+
+    <!-- Speed Test -->
+    <string name="run_speed_test">Hız Testi Başlat</string>
+    <string name="download">İndirme</string>
+    <string name="upload">Yükleme</string>
+    <string name="testing">Test ediliyor…</string>
+
+    <!-- DNS -->
+    <string name="run_dns_benchmark">DNS Testi Başlat</string>
+    <string name="apply_dns">Uygula</string>
+    <string name="restore_dns">DNS Geri Yükle</string>
+
+    <!-- Lag -->
+    <string name="run_lag_analysis">Analiz Başlat</string>
+    <string name="lag_prediction">Gecikme Tahmini</string>
+    <string name="no_issues">Sorun tespit edilmedi</string>
+
+    <!-- Devices -->
+    <string name="devices">Cihazlar</string>
+    <string name="scan_network">Ağı Tara</string>
+    <string name="scanning">Taranıyor…</string>
+    <string name="devices_found">%d cihaz bulundu</string>
+    <string name="no_devices">Cihaz bulunamadı</string>
+    <string name="scan_prompt">Cihazları keşfetmek için Ağı Tara\'ya dokunun</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">Karanlık Tema</string>
+    <string name="language">Dil</string>
+    <string name="auto_mode">Otomatik Mod</string>
+    <string name="about">Hakkında</string>
+    <string name="version">Sürüm</string>
+    <string name="appearance">Görünüm</string>
+    <string name="optimization">Optimizasyon</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="notification_subtitle">Gecikme uyarılarını bildir</string>
+    <string name="auto_mode_subtitle">Ağ sorunlarını otomatik algıla ve düzelt</string>
+    <string name="dark_theme_subtitle">Karanlık tema kullan</string>
+
+    <!-- DNS Benchmark -->
+    <string name="dns_benchmark_desc">Bağlantınız için en hızlı DNS sunucusunu bulun</string>
+    <string name="dns_empty_state">DNS sunucularını test etmek için aşağıdaki düğmeye dokunun</string>
+    <string name="dns_testing">DNS sunucuları test ediliyor…</string>
+
+    <!-- Reports -->
+    <string name="reports_desc">30 saniye boyunca ağ performansınızı analiz edin</string>
+    <string name="reports_empty_state">Ağ performans puanınızı görmek için rapor oluşturun</string>
+    <string name="generate_report">Rapor Oluştur</string>
+    <string name="collecting_data">Veri toplanıyor…</string>
+    <string name="samples_collected">%d örnek toplandı</string>
+    <string name="stop_early">Erken Durdur</string>
+    <string name="metrics_breakdown">Metrik Detayları</string>
+    <string name="lag_spikes">Gecikme Sıçramaları</string>
+    <string name="suggestions">Öneriler</string>
+
+    <!-- Tools -->
+    <string name="tools">Araçlar</string>
+    <string name="devices_desc">Ağınızdaki cihazları tarayın ve keşfedin</string>
+
+    <!-- General -->
+    <string name="mbps">Mbps</string>
+    <string name="ms">ms</string>
+    <string name="enabled">Açık</string>
+    <string name="disabled">Kapalı</string>
+    <string name="app_description">Oyun ve ağ performansı optimizasyon aracı. Ping düşür, paket kaybını azalt, oyun performansını artır.</string>
+    <string name="app_features_summary">156+ oyun algılama • 8 dil desteği • DNS benchmark • Performans raporları</string>
+</resources>

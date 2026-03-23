@@ -4,3 +4,19 @@ obj/
 *.user
 *.suo
 C:UsersASUSNetPulseNetPulseHelpers/
+
+# Android build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+*.apk
+*.aab
+
+# Publish artifacts
+NetProve/publish/
+NetProve-win-x64.zip
+
+# Tools
+tools/
